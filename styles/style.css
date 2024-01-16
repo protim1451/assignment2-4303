@@ -341,6 +341,22 @@ hr{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
 }
+#email{
+    margin-bottom: 40px;
+}
+.btn-sub{
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px;
+    margin-left: 150px;
+}
 .news-right{
     border-radius: 16px;
     background: url(../Images/Rectangle\ 8\ \(1\).png);
@@ -378,6 +394,46 @@ hr{
 .news-container{
     display: flex;
     gap: 15px;
+}
+
+/* Footer */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: auto;
+    height: auto;
+}
+.foot-title{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.foot-desc{
+    text-align: center;
+}
+.social{
+    margin-top: 20px;
+    /* margin-left: 670px; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+.foot{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+.foot-copy{
+    color: #131318;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 70px;
 }
 /* Responsive Style */
 @media screen and (max-width:600px){
@@ -483,7 +539,7 @@ hr{
     .newsletter{
         margin: auto;
         width: auto;
-        height: 300px;
+        height: 350px;
     }
     .news-right{
         width: 90%;
@@ -514,5 +570,26 @@ hr{
     hr{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .btn-sub{
+        margin-left: 90px;
+    }
+    #email{
+        margin-bottom: 20px;
+    }
+    .foot-title{
+        padding-top: 50px;
+    }
+    .social{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .foot{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .foot-copy{
+        padding-bottom: 20px;
     }
 }
